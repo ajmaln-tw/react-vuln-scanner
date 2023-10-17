@@ -1,6 +1,6 @@
 {
   "name": "react-vuln-scanner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/scanner.js",
   "scripts": {
@@ -12,5 +12,9 @@
   "dependencies": {
     "acorn": "^8.10.0",
     "acorn-walk": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajmaln-tw/react-vuln-scanner"
   }
 }
