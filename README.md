@@ -2,7 +2,7 @@
 
 **Overview**
 
-This document provides documentation for a JavaScript security scanner. The scanner can be used to scan JavaScript code for vulnerabilities.
+This document provides documentation for a TypeScript and JavaScript security scanner. The scanner can be used to scan both TypeScript and JavaScript code for vulnerabilities.
 
 **Vulnerabilities scanned for**
 
@@ -33,6 +33,10 @@ if (vulnerabilitiesFound.length > 0) {
   // Handle vulnerabilities found.
 }
 ```
+
+``` npx your-security-scanner scan [directory] [--type js|ts] ```
+
+
 
 **Testing the scanner**
 
