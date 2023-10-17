@@ -1,5 +1,3 @@
-**Markdown documentation for JavaScript security scanner**
-
 **Overview**
 
 This document provides documentation for a TypeScript and JavaScript security scanner. The scanner can be used to scan both TypeScript and JavaScript code for vulnerabilities.
@@ -8,9 +6,9 @@ This document provides documentation for a TypeScript and JavaScript security sc
 
 The scanner scans for the following vulnerabilities:
 
-* Cross-site scripting (XSS)
-* SQL injection
-* Command injection
+- Cross-site scripting (XSS)
+- SQL injection
+- Command injection
 
 **How to use the scanner**
 
@@ -19,7 +17,7 @@ To use the scanner, simply pass the JavaScript code you want to scan to the scan
 **Example**
 
 ```javascript
-const scanner = require('./scanner');
+const scanner = require("./scanner");
 
 const code = `
 function login(username, password) {
@@ -34,9 +32,7 @@ if (vulnerabilitiesFound.length > 0) {
 }
 ```
 
-``` npx your-security-scanner scan [directory] [--type js|ts] ```
-
-
+`npx your-security-scanner scan [directory] [--type js|ts]`
 
 **Testing the scanner**
 
@@ -48,9 +44,9 @@ New vulnerabilities are discovered all the time, so it is important to keep the 
 
 **Additional tips**
 
-* Use the scanner on a regular basis to scan your JavaScript code for vulnerabilities.
-* Remediate any vulnerabilities found as soon as possible.
-* Keep the scanner up to date with the latest information.
+- Use the scanner on a regular basis to scan your JavaScript code for vulnerabilities.
+- Remediate any vulnerabilities found as soon as possible.
+- Keep the scanner up to date with the latest information.
 
 **Conclusion**
 
