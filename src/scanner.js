@@ -91,7 +91,7 @@ async function scanProject(directoryPath) {
 
   if (!scanStats.vulnFound && scanStats.noVulnFiles > 0) {
     process.stdout.write(
-      `\x1b[32mScanning code base completed. No vulnerabilities found. ✔\x1b[0m\n`
+      `\x1b[32mScanning code base completed. No vulnerabilities found. ✔\x1b[0m`
     );
   }
 }
