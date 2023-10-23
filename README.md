@@ -1,6 +1,4 @@
-**Overview**
-
-This document provides documentation for a TypeScript and JavaScript security scanner. The scanner can be used to scan both TypeScript and JavaScript code for vulnerabilities.
+ TypeScript and JavaScript security scanner. The scanner can be used to scan both TypeScript and JavaScript code for vulnerabilities.
 
 **Vulnerabilities scanned for**
 
