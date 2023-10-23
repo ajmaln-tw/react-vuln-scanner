@@ -89,9 +89,9 @@ async function scanProject(directoryPath) {
     }
   });
 
-  if (!scanStats.vulnFound && scanStats.noVulnFiles > 0) {
+  if (!scanStats.vulnFound) {
     process.stdout.write(
-      `\x1b[32mScanning code base completed. No vulnerabilities found. ✔\x1b[0m`
+      `\x1b[32mScanning code base completed. No vulnerabilities found. ✔\x1b[0m\n`
     );
   }
 }
